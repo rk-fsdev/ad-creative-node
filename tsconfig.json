@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowUnreachableCode": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": false,
+    "strictNullChecks": true,
+    "target": "es6",
+    "outDir": "./dist",
+    "inlineSourceMap": true,
+    "removeComments": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@root/*": ["./*"],
+      "@api/*": ["api/*"],
+      "@utils/*": ["utils/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@api": ["api"],
+      "@utils": ["utils"],
+      "@middlewares": ["middlewares"],
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "./src/**/*"
+  ]
+}
